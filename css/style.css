@@ -46,12 +46,14 @@ header > nav {
   display: grid;
   column-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 0;
 }
 
 .grid-item {
   width: auto;
   font-size: 30px;
   text-align: center; 
+  font-size: 3vh;
 
   }
 
@@ -59,3 +61,7 @@ header > nav {
     max-width: 100%;  
     height: auto;  
     }  
+
+  p {
+    font-size: 2vh;
+  }

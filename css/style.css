@@ -46,14 +46,16 @@ header > nav {
   display: grid;
   column-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 0;
-}
+
+  }
 
 .grid-item {
+
   width: auto;
   font-size: 30px;
   text-align: center; 
   font-size: 3vh;
+  max-height: fit-content;
 
   }
 
@@ -64,4 +66,8 @@ header > nav {
 
   p {
     font-size: 2vh;
+  }
+
+  .productphoto {
+    width: 50vw;
   }
